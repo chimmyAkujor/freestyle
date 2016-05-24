@@ -27,15 +27,8 @@ function main(){
         $(".experiment-vid").show();
         $(".pane-img").hide()
     });
-   $(".button1").click(function(){
-        $(".intro").toggleClass("intro1")
-    });
-     $(".button2").click(function(){
-        $(".flight").toggleClass("flight1")
-    });
-     $(".button3").click(function(){
-        $(".navy").toggleClass("navy1")
-    });
+  
+  $(".tab1").accordion();
     
     
     

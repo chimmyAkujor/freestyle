@@ -138,84 +138,13 @@ h2 {
     ;
 }
 
-.flight {
-    height: 67px;
-    width: auto;
-    background-color: darkcyan;
-    margin: 20px;
-    padding: 15px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: height 500ms
-}
-.intro {
-	height: 67px;
-    width: auto;
-    background-color: darkcyan;
-    margin: 20px;
-    padding: 15px;
-    overflow: hidden;
-    transition: height 500ms
-}
-.navy {
-	height: 67px;
-    width: auto;
-    background-color: darkcyan;
-    margin: 20px;
-    padding: 15px;
-    cursor: pointer;
-    overflow: hidden;
-    transition: height 500ms
-}
-.intro1 {
-    height: 460px;
-    width: auto;
-    background-color: darkcyan;
-    margin: 20px;
-    padding: 15px;
-    transition: height 500ms;
-}
-.flight1{
-	height: 460px;
-    width: auto;
-    background-color: darkcyan;
-    margin: 20px;
-    padding: 15px;
-    transition: height 500ms;
-}
-.navy1 {
-	height: 460px;
-    width: auto;
-    background-color: darkcyan;
-    margin: 20px;
-    padding: 15px;
-    transition: height 500ms;
-}
-
-
-.intro-img img {
+.intro-img {
     height: 350px;
     width: 350px;
-}
-.intro-img {
-    display: inline-block;
-    margin-right: 20px;
-}
-.intro-text{
-    display: inline-block;
-    position: relative;
     float: right;
+    border-radius: 5px;
 }
-.intro1 h3,.flight1 h3,.navy1 h3 {
-    text-align: center;
-    border-bottom: 1px solid cadetblue;
-    padding-bottom: 10px;
-}
-.intro h3,.flight h3,.navy h3 {
-    text-align: center;
-    border-bottom: 1px solid cadetblue;
-    padding-bottom: 10px;
-}
+
 .hide{
     display: none;
 }
@@ -241,14 +170,7 @@ h2 {
 .tab3 ul {
     margin-right: 410px;
 }
-h3,p,li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-}
+
 .crater,.experiment {
-    cursor: pointer;
-}
-.button1, .button2, .button3 {
-    z-index: 4;
     cursor: pointer;
 }
