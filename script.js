@@ -28,7 +28,7 @@ function main(){
         $(".pane-img").hide()
     });
   
-  $(".tab1").accordion();
+  $(".tab1").accordion({collapsible: true},{heightStyle:"content"},{icons:{header:" ui-icon-circle-plus",activeHeader:"ui-icon-circle-minus"}});
     
     
     
