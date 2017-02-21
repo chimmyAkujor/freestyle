@@ -1,27 +1,31 @@
-body{
+body {
     background-color: gray;
 }
-*{
+
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-.banner{
-    background-color: crimson ;
+
+.banner {
+    background-color: crimson;
     height: 55px;
-    width:100%;
-    border-bottom:3px darkred solid;
+    width: 100%;
+    border-bottom: 3px darkred solid;
 }
+
 .navbar {
-    width:100%;
+    width: 100%;
     height: 145px;
     overflow: hidden;
     position: relative;
 }
+
 .menu-logo {
-    height:inherit;
-    width:20%;
-    left:-100px;
+    height: inherit;
+    width: 20%;
+    left: -100px;
     position: absolute;
     background-color: brown;
     display: inline-block;
@@ -30,20 +34,33 @@ body{
     -ms-transform: skewX(-35deg);
     -o-transform: skewX(-35deg);
     transform: skewX(-35deg);
-    z-index:1;
+    z-index: 1;
     cursor: pointer;
-   }
+}
+
+.menu-icon {
+    margin-left: 26vh;
+    margin-top: 8vh;
+    z-index: 100;
+}
+
+.mib {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
 
 .menu {
-    height:inherit;
-    width:inherit;
-    z-index:-1;
+    height: inherit;
+    width: inherit;
+    z-index: -1;
     background-color: burlywood;
     display: inline-block;
-
 }
+
 .menu-right {
-    height:inherit;
+    height: inherit;
     width: 100%;
     background-color: brown;
     border-left: solid 5px burlywood;
@@ -55,12 +72,13 @@ body{
     transform: skewX(-35deg);
     position: absolute;
     left: 160px;
-    top:0;
-    z-index:1;
+    top: 0;
+    z-index: 1;
     transition: left 500ms;
 }
+
 .menu-right-active {
-    height:inherit;
+    height: inherit;
     width: 100%;
     background-color: brown;
     border-left: solid 5px burlywood;
@@ -72,68 +90,74 @@ body{
     transform: skewX(-35deg);
     position: absolute;
     left: 400px;
-    top:0;
-    z-index:1;
+    top: 0;
+    z-index: 1;
     transition: left 500ms;
 }
+
 .list {
     position: absolute;
-    left:5%;
-    top:-12%;
-    width:100%;
+    left: 5%;
+    top: -12%;
+    width: 100%;
 }
+
 .list ul {
-    list-style:none;
+    list-style: none;
 }
+
 .list ul li {
     font-family: comfortaaregularimport;
-    color:white;
-    border-top:darkred 1px solid;
-    padding:9px 0 9px 10%;
+    color: white;
+    border-top: darkred 1px solid;
+    padding: 9px 0 9px 10%;
 }
+
 .list ul li:hover {
     color: darkred;
     cursor: pointer;
-
 }
-
 
 .content {
     height: auto;
     width: 100%;
     background-color: teal;
-    
 }
+
 @font-face {
     font-family: walkwayboldimport;
     src: url("fonts/walkwaybold.ttf");
 }
+
 @font-face {
     font-family: comfortaaregularimport;
     src: url("fonts/comfortaa-regular.ttf");
 }
+
 h2 {
     color: #FBFBEF;
     font-family: walkwayboldimport;
     padding: 10px;
 }
+
 .tab1 {
     height: auto;
     padding: 20px;
-    
 }
-.tab3{
+
+.tab3 {
     height: 500px;
     padding: 20px;
 }
+
 .tab2 {
     height: auto;
     padding: 20px;
     position: relative;
-    
 }
+
 .tab4 {
-     height: 300px;
+    height: 300px;
     padding: 20px;
     ;
 }
@@ -145,7 +169,7 @@ h2 {
     border-radius: 5px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -154,23 +178,28 @@ h2 {
     padding: 15px;
     width: 500px;
 }
+
 .left-pane {
     margin-right: 500px;
-	padding: 15px;
+    padding: 15px;
 }
+
 .pane-img {
     height: 350px;
     width: 350px;
 }
+
 .tab3 img {
     float: right;
     width: 400px;
     height: 400px;
 }
+
 .tab3 ul {
     margin-right: 410px;
 }
 
-.crater,.experiment {
+.crater,
+.experiment {
     cursor: pointer;
 }
